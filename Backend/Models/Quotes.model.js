@@ -11,7 +11,7 @@ const QuotesSchema = new mongoose.Schema({
   },
   phone: {
     type: String,
-    reuired: true,
+    required: true,
     
   },
   product: {
