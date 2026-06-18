@@ -34,7 +34,7 @@ const GetQuote = ({ setshowForm }) => {
     }
 
     try {
-      const res = await axios.post("http://localhost:4000/api/quotes", {
+      const res = await axios.post("https://ecoware-backend.onrender.com/api/quotes", {
         name,
         email,
         phone,
