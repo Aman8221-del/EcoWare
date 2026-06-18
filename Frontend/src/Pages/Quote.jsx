@@ -42,7 +42,7 @@ const GetQuote = ({ setshowForm }) => {
         message,
       });
       alert(res.data.message);
-      window.location = "home";
+      window.location.href = "/";
     } catch (error) {
       alert(error.response?.data?.message);
     }
